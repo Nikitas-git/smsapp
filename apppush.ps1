@@ -10,4 +10,4 @@ npm install -g appcenter-cli@$APPCENTER_CLI_VERSION
 # Login to App Center using the provided token
 appcenter login --token $APPCENTER_TOKEN
 
-appcenter distribute release --debug --app nikitabhagat/testandroid --file android\app\build\outputs\apk\release\app-release.apk  --group "testandroidgroup"
+appcenter distribute release --debug --app nikitabhagat/smsapp --file android\app\build\outputs\apk\release\app-release.apk  --group "smsappgroup"
