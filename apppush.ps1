@@ -2,7 +2,7 @@
 $APPCENTER_CLI_VERSION = "latest"
 
 # App Center token
-$APPCENTER_TOKEN = "2aaaec8d6c304eab7ee07e8ca68dcbf47f5b2d76"  # Replace with your actual token
+$APPCENTER_TOKEN = "17e9bac4b691f994f2a26f8a6356cf04e815030d"  # Replace with your actual token
 
 # Install App Center CLI
 npm install -g appcenter-cli@$APPCENTER_CLI_VERSION
