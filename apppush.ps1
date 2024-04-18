@@ -2,7 +2,7 @@
 $APPCENTER_CLI_VERSION = "latest"
 
 # App Center token
-$APPCENTER_TOKEN = "2aaaec8d6c304eab7ee07e8ca68dcbf47f5b2d76"  # Replace with your actual token
+$APPCENTER_TOKEN = "d762a8c8ff338fb4f209e13091488ed313d63a68"  # Replace with your actual token
 
 # Install App Center CLI
 npm install -g appcenter-cli@$APPCENTER_CLI_VERSION
@@ -10,4 +10,4 @@ npm install -g appcenter-cli@$APPCENTER_CLI_VERSION
 # Login to App Center using the provided token
 appcenter login --token $APPCENTER_TOKEN
 
-appcenter distribute release --debug --app nikitabhagat/sms --file android\app\build\outputs\apk\release\app-release.apk  --group "smsgroup"
+appcenter distribute release --debug --app nikitabhagat/androidtest --file android\app\build\outputs\apk\release\app-release.apk  --group "androidtestgroup"
